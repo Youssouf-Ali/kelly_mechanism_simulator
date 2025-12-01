@@ -13,7 +13,7 @@ DELTA = 0.1  # Réservation système
 PRICE_LAMBDA = 1.0  # Prix par unité
 
 # PARAMÈTRES DE SIMULATION
-SIMULATION_TIME = 200.0  # Durée totale (secondes simulées)
+SIMULATION_TIME = 100.0  # Durée totale (secondes simulées)
 RECORD_INTERVAL = 1.0  # Fréquence d'enregistrement
 
 # TAUX D'ÉVÉNEMENTS
@@ -22,7 +22,7 @@ DEPARTURE_RATE = 0.05  # Départs par seconde
 BIDDING_RATE = 1.0  # Enchères par seconde
 
 # POLITIQUE D'ENCHÈRE
-BIDDING_POLICY = "gradient_descent"  # ou "gradient_descent"
+BIDDING_POLICY = "best_response"  # ou "gradient_descent" "best_response"
 
 # AFFICHAGE
 VERBOSE = True  # Afficher les logs détaillés
